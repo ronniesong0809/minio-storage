@@ -1,0 +1,17 @@
+{
+  "name": "Minio Storage",
+  "description": "deploy a tiny object storage service",
+  "website": "https://github.com/ronniesong0809/minio-storage",
+  "repository": "https://github.com/ronniesong0809/minio-storage",
+  "logo": "https://min.io/resources/img/logo.svg",
+  "stack": "container",
+  "env": {
+    "ACCESS_KEY": {
+       "value": "admin"
+     }, 
+    "SECRET_KEY": {
+      "generator": "secret"
+     }
+  },
+  "keywords": ["storage", "object storage", "minio"]
+}
